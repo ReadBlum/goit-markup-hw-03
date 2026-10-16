@@ -6,9 +6,27 @@
   color: #2e2f42;
 }
 
+.features h2 {
+  display: none;
+}
+
 .features p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.features ul {
+  display: flex;
+  gap: 24px;
+}
+
+.features li {
+  width: calc((100% - 72px) / 4);
+}
+
+.features {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }

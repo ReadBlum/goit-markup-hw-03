@@ -1,5 +1,7 @@
 .team {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team h2 {
@@ -30,4 +32,11 @@
 
 .team li {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+}
+
+.team ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
